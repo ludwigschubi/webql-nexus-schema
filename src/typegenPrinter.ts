@@ -23,7 +23,7 @@ import {
   isScalarType,
   isSpecifiedScalarType,
   isUnionType,
-} from 'graphql'
+} from 'webql-js'
 import * as path from 'path'
 import { TypegenInfo } from './builder'
 import { NexusGraphQLSchema } from './definitions/_types'

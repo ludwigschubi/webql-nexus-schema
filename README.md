@@ -8,7 +8,7 @@ Declarative, code-first and strongly typed GraphQL schema construction for TypeS
 ## Installation
 
 ```
-npm install @nexus/schema graphql
+npm install @webql-nexus/schema graphql
 ```
 
 Note you must also add `graphql`. Nexus Schema pins to it as a [peer dependency](https://nodejs.org/en/blog/npm/peer-dependencies/).
@@ -33,31 +33,31 @@ Note you must also add `graphql`. Nexus Schema pins to it as a [peer dependency]
 ## Example
 
 ```ts
-import { queryType, stringArg, makeSchema } from "@nexus/schema";
-import { GraphQLServer } from "graphql-yoga";
+import { queryType, stringArg, makeSchema } from '@webql-nexus/schema'
+import { GraphQLServer } from 'graphql-yoga'
 
 const Query = queryType({
   definition(t) {
-    t.string("hello", {
+    t.string('hello', {
       args: { name: stringArg({ nullable: true }) },
-      resolve: (parent, { name }) => `Hello ${name || "World"}!`,
-    });
+      resolve: (parent, { name }) => `Hello ${name || 'World'}!`,
+    })
   },
-});
+})
 
 const schema = makeSchema({
   types: [Query],
   outputs: {
-    schema: __dirname + "/generated/schema.graphql",
-    typegen: __dirname + "/generated/typings.ts",
+    schema: __dirname + '/generated/schema.graphql',
+    typegen: __dirname + '/generated/typings.ts',
   },
-});
+})
 
 const server = new GraphQLServer({
   schema,
-});
+})
 
-server.start(() => `Server is running on http://localhost:4000`);
+server.start(() => `Server is running on http://localhost:4000`)
 ```
 
 More examples can be found in the [`/examples`](./examples) directory:

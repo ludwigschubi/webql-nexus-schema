@@ -1,14 +1,14 @@
-import { objectType } from "@nexus/schema";
+import { objectType } from '@webql-nexus/schema'
 
 export const Human = objectType({
-  name: "Human",
-  description: "A humanoid creature in the Star Wars universe.",
+  name: 'Human',
+  description: 'A humanoid creature in the Star Wars universe.',
   definition(t) {
-    t.implements("Character");
-    t.string("homePlanet", {
+    t.implements('Character')
+    t.string('homePlanet', {
       nullable: true,
-      description: "The home planet of the human, or null if unknown.",
+      description: 'The home planet of the human, or null if unknown.',
       resolve: (o) => o.home_planet || null,
-    });
+    })
   },
-});
+})

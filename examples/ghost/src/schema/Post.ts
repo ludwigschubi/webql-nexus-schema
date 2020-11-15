@@ -1,11 +1,11 @@
-import { objectType } from "@nexus/schema";
+import { objectType } from '@webql-nexus/schema'
 
 export const Post = objectType({
-  name: "Post",
+  name: 'Post',
   definition(t) {
-    t.string("uuid");
-    t.string("title");
-    t.string("slug");
-    t.string("html", (o) => o.html || "");
+    t.string('uuid')
+    t.string('title')
+    t.string('slug')
+    t.string('html', (o) => o.html || '')
   },
-});
+})

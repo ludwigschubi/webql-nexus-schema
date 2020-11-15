@@ -1,10 +1,10 @@
-import { objectType } from "@nexus/schema";
+import { objectType } from '@webql-nexus/schema'
 
 export const Rocket = objectType({
-  name: "Rocket",
+  name: 'Rocket',
   definition(t) {
-    t.id("id");
-    t.string("name", { nullable: true });
-    t.string("type", { nullable: true });
+    t.id('id')
+    t.string('name', { nullable: true })
+    t.string('type', { nullable: true })
   },
-});
+})

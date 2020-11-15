@@ -1,4 +1,4 @@
-import { GraphQLResolveInfo } from 'graphql'
+import { GraphQLResolveInfo } from 'webql-js'
 
 declare global {
   interface NexusGen {}

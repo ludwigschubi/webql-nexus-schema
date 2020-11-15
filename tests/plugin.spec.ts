@@ -1,4 +1,4 @@
-import { buildSchema, graphql, GraphQLSchema, printSchema } from 'graphql'
+import { buildSchema, graphql, GraphQLSchema, printSchema } from 'webql-js'
 import { interfaceType, makeSchema, MiddlewareFn, objectType, plugin, queryField } from '../src/core'
 import { nullabilityGuardPlugin } from '../src/plugins'
 import { EXAMPLE_SDL } from './_sdl'

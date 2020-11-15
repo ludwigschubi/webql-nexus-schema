@@ -1,4 +1,4 @@
-import { GraphQLFieldResolver, GraphQLResolveInfo, GraphQLSchema } from 'graphql'
+import { GraphQLFieldResolver, GraphQLResolveInfo, GraphQLSchema } from 'webql-js'
 import { NexusAcceptedTypeDef, PluginBuilderLens, SchemaConfig } from './builder'
 import {
   Maybe,

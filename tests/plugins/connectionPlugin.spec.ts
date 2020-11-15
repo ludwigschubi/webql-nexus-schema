@@ -6,7 +6,7 @@ import {
   parse,
   printSchema,
   printType,
-} from 'graphql'
+} from 'webql-js'
 import { connectionFromArray } from 'graphql-relay'
 import { arg, connectionPlugin, makeSchema, objectType } from '../../src'
 import { ConnectionFieldConfig, ConnectionPluginConfig } from '../../src/plugins/connectionPlugin'

@@ -5,9 +5,9 @@ import {
   makeSchema,
   nullabilityGuardPlugin,
   queryComplexityPlugin,
-} from '@nexus/schema'
+} from '@webql-nexus/schema'
 import { ApolloServer } from 'apollo-server'
-import { separateOperations } from 'graphql'
+import { separateOperations } from 'webql-js'
 import { fieldExtensionsEstimator, getComplexity, simpleEstimator } from 'graphql-query-complexity'
 import path from 'path'
 import { logMutationTimePlugin, NodePlugin } from './example-plugins'

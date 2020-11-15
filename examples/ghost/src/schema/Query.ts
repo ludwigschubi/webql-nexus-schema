@@ -1,32 +1,32 @@
-import { queryType, idArg } from "@nexus/schema";
-import { Post } from "./Post";
-import { User } from "./User";
+import { queryType, idArg } from '@webql-nexus/schema'
+import { Post } from './Post'
+import { User } from './User'
 
 export const Query = queryType({
   definition(t) {
-    t.field("me", {
+    t.field('me', {
       type: User,
       nullable: true,
       resolve() {
-        return null;
+        return null
       },
-    });
-    t.field("postById", {
+    })
+    t.field('postById', {
       type: Post,
       args: { id: idArg() },
       authorize: (root, args, ctx) => ctx.auth.canViewPost(args.id),
       resolve(root, args, ctx) {
-        return ctx.post.byId(args.id);
+        return ctx.post.byId(args.id)
       },
-    });
-    t.field("userById", {
+    })
+    t.field('userById', {
       type: User,
       args: { id: idArg() },
       authorize: (root, args, ctx) => ctx.auth.canViewUser(args.id),
       resolve(root, args, ctx) {
-        return ctx.user.byId(args.id);
+        return ctx.user.byId(args.id)
       },
-    });
+    })
   },
   nonNullDefaults: { input: true },
-});
+})

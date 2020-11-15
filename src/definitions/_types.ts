@@ -12,7 +12,7 @@ import {
   GraphQLScalarType,
   GraphQLSchema,
   GraphQLUnionType,
-} from 'graphql'
+} from 'webql-js'
 import {
   NexusFieldExtension,
   NexusInputObjectTypeExtension,

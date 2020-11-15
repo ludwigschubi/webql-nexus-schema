@@ -1,4 +1,4 @@
-import { assertValidName } from 'graphql'
+import { assertValidName } from 'webql-js'
 import { arg, NexusArgDef, NexusAsArgConfig } from './args'
 import { InputDefinitionBlock } from './definitionBlocks'
 import { NexusTypes, NonNullConfig, withNexusSymbol } from './_types'

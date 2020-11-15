@@ -1,4 +1,4 @@
-import { assertValidName } from 'graphql'
+import { assertValidName } from 'webql-js'
 import { AllOutputTypesPossible } from '../typegenTypeHelpers'
 import { OutputDefinitionBlock } from './definitionBlocks'
 import { NexusTypes, withNexusSymbol } from './_types'

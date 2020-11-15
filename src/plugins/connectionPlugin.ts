@@ -1,4 +1,4 @@
-import { GraphQLFieldResolver, GraphQLResolveInfo } from 'graphql'
+import { GraphQLFieldResolver, GraphQLResolveInfo } from 'webql-js'
 import { ArgsRecord, intArg, stringArg } from '../definitions/args'
 import { CommonFieldConfig, FieldOutConfig } from '../definitions/definitionBlocks'
 import { ObjectDefinitionBlock, objectType } from '../definitions/objectType'
@@ -116,14 +116,14 @@ export interface ConnectionPluginConfig {
    */
   typePrefix?: string
   /**
-   * The path to the @nexus/schema package. Needed for typegen.
+   * The path to the @webql-nexus/schema package. Needed for typegen.
    *
-   * @default '@nexus/schema'
+   * @default '@webql-nexus/schema'
    *
    * @remarks
    *
-   * This setting is particularly useful when @nexus/schema is being wrapped by
-   * another library/framework such that @nexus/schema is not expected to be a
+   * This setting is particularly useful when @webql-nexus/schema is being wrapped by
+   * another library/framework such that @webql-nexus/schema is not expected to be a
    * direct dependency at the application level.
    */
   nexusSchemaImportId?: string

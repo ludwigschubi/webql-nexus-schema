@@ -1,4 +1,4 @@
-import { interfaceType, idArg } from '@nexus/schema'
+import { interfaceType, idArg } from '@webql-nexus/schema'
 import { getFriends } from '../data'
 
 export const Character = interfaceType({

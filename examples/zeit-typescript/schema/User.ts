@@ -1,4 +1,4 @@
-import { extendType, objectType } from "@nexus/schema"
+import { extendType, objectType } from "@webql-nexus/schema"
 
 export const Query = extendType({
   type: "Query",

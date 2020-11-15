@@ -13,7 +13,7 @@ import {
   queryField,
   scalarType,
   unionType,
-} from '@nexus/schema'
+} from '@webql-nexus/schema'
 import { connectionFromArray } from 'graphql-relay'
 import _ from 'lodash'
 

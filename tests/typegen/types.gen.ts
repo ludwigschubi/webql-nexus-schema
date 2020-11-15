@@ -3,7 +3,7 @@
  * Do not make changes to this file directly
  */
 
-import { core } from '@nexus/schema'
+import { core } from '@webql-nexus/schema'
 
 declare global {
   interface NexusGen extends NexusGenTypes {}

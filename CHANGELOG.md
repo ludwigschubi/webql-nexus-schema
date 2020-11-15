@@ -6,7 +6,7 @@
 
 ### 0.13.0
 
-The first release of Nexus schema under the package name `@nexus/schema`
+The first release of Nexus schema under the package name `@webql-nexus/schema`
 
 ### 0.12.0
 

@@ -21,7 +21,7 @@ import {
   isUnionType,
   isWrappingType,
   specifiedScalarTypes,
-} from 'graphql'
+} from 'webql-js'
 import * as path from 'path'
 import {
   MissingType,

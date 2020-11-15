@@ -6,7 +6,7 @@ import { allExamples } from './constants'
 const execAsync = util.promisify(exec)
 
 async function unlinkDir(dir: string) {
-  await execAsync('rm -rf graphql', {
+  await execAsync('rm -rf webql-js', {
     cwd: path.join(dir, 'node_modules'),
   })
   await execAsync('yarn unlink nexus', {

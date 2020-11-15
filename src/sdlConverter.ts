@@ -16,7 +16,7 @@ import {
   isObjectType,
   isScalarType,
   isSpecifiedScalarType,
-} from 'graphql'
+} from 'webql-js'
 import { eachObj, GroupedTypes, groupTypes, isInterfaceField, objValues, unwrapType } from './utils'
 
 export function convertSDL(sdl: string, commonjs: null | boolean = false, json = JSON) {
@@ -61,9 +61,9 @@ export class SDLConverter {
 
   printUsedImports() {
     if (this.commonjs) {
-      return `const { ${Array.from(this.usedImports).join(', ')} } = require('@nexus/schema');`
+      return `const { ${Array.from(this.usedImports).join(', ')} } = require('@webql-nexus/schema');`
     }
-    return `import { ${Array.from(this.usedImports).join(', ')} } from '@nexus/schema';`
+    return `import { ${Array.from(this.usedImports).join(', ')} } from '@webql-nexus/schema';`
   }
 
   printObjectTypes() {

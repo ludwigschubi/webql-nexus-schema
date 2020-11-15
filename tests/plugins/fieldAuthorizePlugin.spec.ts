@@ -1,4 +1,4 @@
-import { graphql } from 'graphql'
+import { graphql } from 'webql-js'
 import path from 'path'
 import { fieldAuthorizePlugin, makeSchema, objectType, queryField } from '../../src'
 import { generateSchema } from '../../src/core'

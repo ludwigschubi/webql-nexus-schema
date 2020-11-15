@@ -1,4 +1,4 @@
-import { makeSchema } from "@nexus/schema"
+import { makeSchema } from "@webql-nexus/schema"
 import * as User from "./User"
 
 export const schema = makeSchema({

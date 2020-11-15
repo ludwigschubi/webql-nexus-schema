@@ -1,4 +1,4 @@
-import { printSchema } from 'graphql'
+import { printSchema } from 'webql-js'
 import { createPlugin, makeSchema, objectType, PluginConfig, queryType } from '../src'
 import { extendType, inputObjectType, NexusAcceptedTypeDef } from '../src/core'
 

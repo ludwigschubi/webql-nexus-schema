@@ -1,4 +1,9 @@
-import { makeSchema, objectType, queryType, stringArg } from '@nexus/schema'
+import {
+  makeSchema,
+  objectType,
+  queryType,
+  stringArg,
+} from '@webql-nexus/schema'
 import { PrismaClient } from '@prisma/client'
 import { ApolloServer } from 'apollo-server-express'
 import express from 'express'

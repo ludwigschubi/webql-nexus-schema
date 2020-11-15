@@ -1,10 +1,10 @@
-import { GraphQLField } from 'graphql'
+import { GraphQLField } from 'webql-js'
 import { ArgsValue, GetGen, RootValue } from '../core'
 import { plugin } from '../plugin'
 import { printedGenTyping, printedGenTypingImport } from '../utils'
 
 const QueryComplexityImport = printedGenTypingImport({
-  module: '@nexus/schema/dist/plugins/queryComplexityPlugin',
+  module: '@webql-nexus/schema/dist/plugins/queryComplexityPlugin',
   bindings: ['QueryComplexity'],
 })
 

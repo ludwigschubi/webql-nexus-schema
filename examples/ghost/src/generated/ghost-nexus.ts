@@ -3,8 +3,8 @@
  * Do not make changes to this file directly
  */
 
-import { core } from '@nexus/schema'
-import { FieldAuthorizeResolver } from '@nexus/schema/dist/plugins/fieldAuthorizePlugin'
+import { core } from '@webql-nexus/schema'
+import { FieldAuthorizeResolver } from '@webql-nexus/schema/dist/plugins/fieldAuthorizePlugin'
 import * as ctx from '../data-sources/Context'
 import * as db from './ghost-db-types'
 

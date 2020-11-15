@@ -1,4 +1,4 @@
-import { makeSchema, nullabilityGuardPlugin } from '@nexus/schema'
+import { makeSchema, nullabilityGuardPlugin } from '@webql-nexus/schema'
 import * as path from 'path'
 import * as allTypes from './graphql'
 

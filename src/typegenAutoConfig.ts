@@ -1,4 +1,4 @@
-import { GraphQLNamedType, GraphQLSchema, isOutputType } from 'graphql'
+import { GraphQLNamedType, GraphQLSchema, isOutputType } from 'webql-js'
 import * as path from 'path'
 import { TypegenInfo } from './builder'
 import { TYPEGEN_HEADER } from './lang'

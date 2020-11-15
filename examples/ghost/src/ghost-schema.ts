@@ -1,4 +1,4 @@
-import { fieldAuthorizePlugin, makeSchema } from '@nexus/schema'
+import { fieldAuthorizePlugin, makeSchema } from '@webql-nexus/schema'
 import path from 'path'
 import * as allTypes from './schema'
 

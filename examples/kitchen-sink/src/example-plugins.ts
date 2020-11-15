@@ -1,4 +1,4 @@
-import { FieldResolver, interfaceType, plugin } from '@nexus/schema'
+import { FieldResolver, interfaceType, plugin } from '@webql-nexus/schema'
 
 export const logMutationTimePlugin = plugin({
   name: 'LogMutationTime',

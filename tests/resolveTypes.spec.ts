@@ -1,4 +1,4 @@
-import { graphql } from 'graphql'
+import { graphql } from 'webql-js'
 import { makeSchema, queryType, scalarType } from '../src'
 
 describe('custom scalars', () => {

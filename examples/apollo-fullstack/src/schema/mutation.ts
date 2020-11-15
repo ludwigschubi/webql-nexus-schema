@@ -1,4 +1,4 @@
-import { objectType, idArg, stringArg } from '@nexus/schema'
+import { objectType, idArg, stringArg } from '@webql-nexus/schema'
 
 export const Mutation = objectType({
   name: 'Mutation',

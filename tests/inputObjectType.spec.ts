@@ -1,4 +1,4 @@
-import { graphql } from 'graphql'
+import { graphql } from 'webql-js'
 import { inputObjectType, makeSchema, objectType, queryField } from '../src/core'
 
 describe('inputObject', () => {

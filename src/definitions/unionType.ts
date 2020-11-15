@@ -1,4 +1,4 @@
-import { assertValidName } from 'graphql'
+import { assertValidName } from 'webql-js'
 import { GetGen, AbstractTypes } from '../typegenTypeHelpers'
 import { NexusTypes, RootTypingDef, withNexusSymbol } from './_types'
 import { NexusObjectTypeDef } from './objectType'

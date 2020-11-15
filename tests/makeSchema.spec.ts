@@ -1,4 +1,4 @@
-import { printSchema } from 'graphql'
+import { printSchema } from 'webql-js'
 import os from 'os'
 import path from 'path'
 import { generateSchema, makeSchema } from '../src/builder'

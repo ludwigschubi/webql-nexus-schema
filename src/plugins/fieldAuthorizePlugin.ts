@@ -1,10 +1,10 @@
-import { GraphQLResolveInfo } from 'graphql'
+import { GraphQLResolveInfo } from 'webql-js'
 import { plugin } from '../plugin'
 import { ArgsValue, GetGen, MaybePromise, RootValue } from '../typegenTypeHelpers'
 import { printedGenTyping, printedGenTypingImport } from '../utils'
 
 const FieldauthorizeResolverImport = printedGenTypingImport({
-  module: '@nexus/schema/dist/plugins/fieldAuthorizePlugin',
+  module: '@webql-nexus/schema/dist/plugins/fieldAuthorizePlugin',
   bindings: ['FieldAuthorizeResolver'],
 })
 

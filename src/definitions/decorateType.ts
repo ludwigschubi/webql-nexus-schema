@@ -1,4 +1,4 @@
-import { GraphQLNamedType } from 'graphql'
+import { GraphQLNamedType } from 'webql-js'
 import { RootTypingDef } from './_types'
 
 export interface TypeExtensionConfig {

@@ -30,7 +30,7 @@ import {
   mutationType,
   objectType,
   subscriptionType,
-} from '@nexus/schema'
+} from '@webql-nexus/schema'
 
 const pubsub = new PubSub()
 
@@ -107,7 +107,7 @@ import { ApolloServer } from 'apollo-server-express'
 import express from 'express'
 import * as HTTP from 'http'
 import * as path from 'path'
-import { makeSchema, subscriptionType } from '@nexus/schema'
+import { makeSchema, subscriptionType } from '@webql-nexus/schema'
 
 const schema = makeSchema({
   shouldExitAfterGenerateArtifacts:

@@ -1,4 +1,4 @@
-import { assertValidName, GraphQLScalarType, GraphQLScalarTypeConfig } from 'graphql'
+import { assertValidName, GraphQLScalarType, GraphQLScalarTypeConfig } from 'webql-js'
 import { decorateType } from './decorateType'
 import { NexusTypes, RootTypingDef, withNexusSymbol } from './_types'
 

@@ -39,7 +39,7 @@ import {
   isUnionType,
   isWrappingType,
   printSchema,
-} from 'graphql'
+} from 'webql-js'
 import {
   GraphQLPossibleInputs,
   GraphQLPossibleOutputs,
@@ -280,14 +280,14 @@ export interface TypegenInfo {
    */
   contextType?: string
   /**
-   * The path to the @nexus/schema package.
+   * The path to the @webql-nexus/schema package.
    *
-   * @default '@nexus/schema'
+   * @default '@webql-nexus/schema'
    *
    * @remarks
    *
-   * This setting is particularly useful when @nexus/schema is being wrapped by
-   * another library/framework such that @nexus/schema is not expected to be a
+   * This setting is particularly useful when @webql-nexus/schema is being wrapped by
+   * another library/framework such that @webql-nexus/schema is not expected to be a
    * direct dependency at the application level.
    */
   nexusSchemaImportId?: string

@@ -1,4 +1,4 @@
-import { GraphQLSchema, lexicographicSortSchema, printSchema } from 'graphql'
+import { GraphQLSchema, lexicographicSortSchema, printSchema } from 'webql-js'
 import * as path from 'path'
 import { BuilderConfigInput, TypegenInfo } from './builder'
 import { NexusGraphQLSchema } from './definitions/_types'

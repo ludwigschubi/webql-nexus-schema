@@ -1,5 +1,5 @@
 import { JSDoc, SyntaxKind } from 'typescript'
-import { arg, interfaceType } from '@nexus/schema'
+import { arg, interfaceType } from '@webql-nexus/schema'
 import { allKnownNodes, syntaxKindFilter } from './utils'
 
 const syntaxKindArgs = {

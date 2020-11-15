@@ -1,5 +1,5 @@
 import dedent from 'dedent'
-import { objectType } from '@nexus/schema'
+import { objectType } from '@webql-nexus/schema'
 
 export const Launch = objectType({
   name: 'Launch',

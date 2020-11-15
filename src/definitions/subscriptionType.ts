@@ -1,4 +1,4 @@
-import { GraphQLResolveInfo } from 'graphql'
+import { GraphQLResolveInfo } from 'webql-js'
 import { ArgsValue, GetGen, MaybePromise, MaybePromiseDeep, ResultValue } from '../typegenTypeHelpers'
 import { IsEqual } from '../utils'
 import { BaseScalars } from './_types'
