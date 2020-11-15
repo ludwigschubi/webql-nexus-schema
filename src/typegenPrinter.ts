@@ -783,7 +783,7 @@ export class TypegenPrinter {
     return [`${space}${key}: { // ${source}`]
       .concat(
         mapObj(val, (v2, k2) => {
-          return `${space}  ${k2}${v2[0]} ${v2[1]}`
+          return `${space}  ${k2.includes('#') ? "'" + k2 + "'" : k2}${v2[0]} ${v2[1]}`
         })
       )
       .concat(`${space}}`)

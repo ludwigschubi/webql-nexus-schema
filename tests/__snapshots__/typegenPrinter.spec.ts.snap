@@ -137,7 +137,7 @@ exports[`typegenPrinter should print the full output 1`] = `
  */
 
 import * as t from \\"./__helpers/index\\"
-import { core } from \\"@webql-nexus/schema\\"
+import { core } from \\"webql-nexus-schema\\"
 
 
 

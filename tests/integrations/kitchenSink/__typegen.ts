@@ -3,7 +3,7 @@
  * Do not make changes to this file directly
  */
 
-import { core } from '../../../src'
+import { core } from 'webql-nexus-schema'
 declare global {
   interface NexusGenCustomInputMethods<TypeName extends string> {
     title(...args: any): void
