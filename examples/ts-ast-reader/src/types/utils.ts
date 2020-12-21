@@ -1,4 +1,4 @@
-import { GraphQLSchema, isObjectType, GraphQLResolveInfo } from 'webql-js'
+import { GraphQLSchema, isObjectType, GraphQLResolveInfo } from 'graphql'
 import ts from 'typescript'
 import { NexusGenArgTypes } from '../ts-ast-reader-typegen'
 

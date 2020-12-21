@@ -1,4 +1,4 @@
-import * as GQL from 'webql-js'
+import * as GQL from 'graphql'
 import { makeSchema, subscriptionField } from '../src/core'
 import { mockStream, subscribe, take } from './__helpers'
 

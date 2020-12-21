@@ -1,4 +1,4 @@
-import { assertValidName } from 'webql-js'
+import { assertValidName } from 'graphql'
 import { NexusTypes, RootTypingDef, withNexusSymbol } from './_types'
 
 type TypeScriptEnumLike = {

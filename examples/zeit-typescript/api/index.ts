@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@now/node"
-import { printSchema } from "webql-js"
+import { printSchema } from "graphql"
 import schema from "../schema"
 
 export default function (_req: NowRequest, res: NowResponse) {

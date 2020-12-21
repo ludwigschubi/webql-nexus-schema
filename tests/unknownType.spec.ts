@@ -1,4 +1,4 @@
-import { Kind } from 'webql-js'
+import { Kind } from 'graphql'
 import { makeSchema, makeSchemaInternal, objectType, UNKNOWN_TYPE_SCALAR } from '../src/core'
 
 describe('unknownType', () => {

@@ -1,5 +1,5 @@
 import { makeSchema } from '@webql-nexus/schema'
-import { GraphQLNamedType, isObjectType } from 'webql-js'
+import { GraphQLNamedType, isObjectType } from 'graphql'
 import path from 'path'
 import * as types from './types'
 

@@ -1,4 +1,4 @@
-import { printSchema } from 'webql-js'
+import { printSchema } from 'graphql'
 import { core, intArg, makeSchema, queryType } from '../src'
 
 describe('nonNullDefaults', () => {

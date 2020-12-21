@@ -1,4 +1,4 @@
-import { graphql, GraphQLID, GraphQLNonNull, GraphQLObjectType } from 'webql-js'
+import { graphql, GraphQLID, GraphQLNonNull, GraphQLObjectType } from 'graphql'
 import {
   enumType,
   interfaceType,

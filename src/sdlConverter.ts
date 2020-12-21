@@ -16,7 +16,7 @@ import {
   isObjectType,
   isScalarType,
   isSpecifiedScalarType,
-} from 'webql-js'
+} from 'graphql'
 import { eachObj, GroupedTypes, groupTypes, isInterfaceField, objValues, unwrapType } from './utils'
 
 export function convertSDL(sdl: string, commonjs: null | boolean = false, json = JSON) {

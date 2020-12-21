@@ -1,4 +1,4 @@
-import { graphql } from 'webql-js'
+import { graphql } from 'graphql'
 import {
   arg,
   booleanArg,

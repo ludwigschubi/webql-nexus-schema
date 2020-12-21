@@ -1,4 +1,4 @@
-import { GraphQLNamedType } from 'webql-js'
+import { GraphQLNamedType } from 'graphql'
 import { DynamicInputMethodDef, DynamicOutputMethodDef } from '../dynamicMethod'
 import { DynamicOutputPropertyDef } from '../dynamicProperty'
 import { NexusPlugin } from '../plugin'

@@ -1,4 +1,4 @@
-import { GraphQLResolveInfo } from 'webql-js'
+import { GraphQLResolveInfo } from 'graphql'
 import { plugin } from '../plugin'
 import { ArgsValue, GetGen, MaybePromise, RootValue } from '../typegenTypeHelpers'
 import { printedGenTyping, printedGenTypingImport } from '../utils'

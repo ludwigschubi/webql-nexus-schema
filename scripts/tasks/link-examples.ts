@@ -16,10 +16,10 @@ async function linkDir(dir: string, root: string) {
   await execAsync('yarn link @webql-nexus/schema', {
     cwd: dir,
   })
-  await execAsync('rm -rf webql-js', {
+  await execAsync('rm -rf graphql', {
     cwd: path.join(dir, 'node_modules'),
   })
-  await execAsync(`ln -s ${path.join(root, 'node_modules/webql-js')} ./webql-js`, {
+  await execAsync(`ln -s ${path.join(root, 'node_modules/graphql')} ./graphql`, {
     cwd: path.join(dir, 'node_modules'),
   })
 }

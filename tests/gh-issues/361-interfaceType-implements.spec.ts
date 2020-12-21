@@ -1,4 +1,4 @@
-import { GraphQLSchema } from 'webql-js'
+import { GraphQLSchema } from 'graphql'
 import { interfaceType, makeSchema, objectType } from '../../src'
 
 describe('GH #361, interfaceType & implements', () => {

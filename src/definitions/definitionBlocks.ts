@@ -1,4 +1,4 @@
-import { GraphQLFieldResolver } from 'webql-js'
+import { GraphQLFieldResolver } from 'graphql'
 import { AllInputTypes, FieldResolver, GetGen, GetGen3, HasGen3, NeedsResolver } from '../typegenTypeHelpers'
 import { BaseScalars } from './_types'
 import { ArgsRecord } from './args'

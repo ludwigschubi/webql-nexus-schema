@@ -1,4 +1,4 @@
-import { GraphQLFieldResolver, GraphQLResolveInfo } from 'webql-js'
+import { GraphQLFieldResolver, GraphQLResolveInfo } from 'graphql'
 import { ArgsRecord, intArg, stringArg } from '../definitions/args'
 import { CommonFieldConfig, FieldOutConfig } from '../definitions/definitionBlocks'
 import { ObjectDefinitionBlock, objectType } from '../definitions/objectType'

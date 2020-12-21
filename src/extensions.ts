@@ -1,4 +1,4 @@
-import { GraphQLNamedType } from 'webql-js'
+import { GraphQLNamedType } from 'graphql'
 import { DynamicFieldDefs, SchemaConfig } from './builder'
 import { RootTypings } from './definitions/_types'
 import { NexusOutputFieldConfig } from './definitions/definitionBlocks'

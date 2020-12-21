@@ -82,6 +82,7 @@
     "dripip": "^0.10.0",
     "eslint": "^6.6.0",
     "get-port": "^5.1.1",
+    "graphql": "^15.3.0",
     "graphql-relay": "^0.6.0",
     "graphql-scalars": "^1.2.6",
     "gulp": "4.0.2",
@@ -97,10 +98,9 @@
     "tsd": "^0.13.1",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
-    "typescript": "^3.9",
-    "webql-js": "^15.3.0"
+    "typescript": "^3.9"
   },
   "peerDependencies": {
-    "webql-js": "^15.3.0"
+    "graphql": "^15.3.0"
   }
 }

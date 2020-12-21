@@ -1,4 +1,4 @@
-import { GraphQLField } from 'webql-js'
+import { GraphQLField } from 'graphql'
 import { ArgsValue, GetGen, RootValue } from '../core'
 import { plugin } from '../plugin'
 import { printedGenTyping, printedGenTypingImport } from '../utils'

@@ -1,4 +1,4 @@
-import { graphql } from 'webql-js'
+import { graphql } from 'graphql'
 import { GraphQLDate, GraphQLDateTime } from 'graphql-scalars'
 import {
   asNexusMethod,

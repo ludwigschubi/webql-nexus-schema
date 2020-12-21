@@ -39,7 +39,7 @@ import {
   isUnionType,
   isWrappingType,
   printSchema,
-} from 'webql-js'
+} from 'graphql'
 import {
   GraphQLPossibleInputs,
   GraphQLPossibleOutputs,

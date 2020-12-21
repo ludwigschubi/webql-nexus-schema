@@ -1,4 +1,4 @@
-import * as GQL from 'webql-js'
+import * as GQL from 'graphql'
 import { inputObjectType, objectType } from '../../src'
 
 /**

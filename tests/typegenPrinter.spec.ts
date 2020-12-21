@@ -1,4 +1,4 @@
-import { buildSchema, GraphQLField, GraphQLInterfaceType, GraphQLObjectType } from 'webql-js'
+import { buildSchema, GraphQLField, GraphQLInterfaceType, GraphQLObjectType } from 'graphql'
 import * as path from 'path'
 import { core } from '../src'
 import { EXAMPLE_SDL } from './_sdl'

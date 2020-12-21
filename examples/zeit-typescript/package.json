@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@webql-nexus/schema": "0.18.0-next.2",
-    "webql-js": "^15.3.0"
+    "graphql": "^15.3.0"
   },
   "devDependencies": {
     "@now/node": "^1.0.1",

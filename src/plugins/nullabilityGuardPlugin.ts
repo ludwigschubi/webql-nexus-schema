@@ -10,7 +10,7 @@ import {
   isScalarType,
   isUnionType,
   isWrappingType,
-} from 'webql-js'
+} from 'graphql'
 import { forEach } from 'iterall'
 import { GraphQLPossibleOutputs } from '../definitions/_types'
 import { NexusGraphQLNamedType } from '../extensions'

@@ -1,4 +1,4 @@
-import { GraphQLObjectType } from 'webql-js'
+import { GraphQLObjectType } from 'graphql'
 import path from 'path'
 import { makeSchema, objectType, queryComplexityPlugin, queryField } from '../../src'
 import { generateSchema } from '../../src/core'
